@@ -46,3 +46,12 @@ This is the simple one. To be able to prompt the user to install app - manifest 
 ```
 git checkout install-prompt
 ```
+
+### Serve optimized image
+
+This one is based on realistic scenario. The task is to intercept image requests and return lighter images to browsers that can render them.
+It can be challenging as there is several opportunities to make it difficult.
+
+```
+git checkout serve-webp
+```
